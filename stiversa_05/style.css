@@ -1,0 +1,116 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #DCF2DE;
+  margin: 0;
+}
+
+h1 {
+  background-color: #476C5E;
+  color: #fff;
+  padding: 20px;
+}
+
+h2 {
+   background-color: #C5D9C7;
+    width: inherit;
+    font-size: 28pt;
+    color: #333;
+    padding: 10pt;
+}
+h1, h2, h3, p {
+  margin: 0;
+}
+
+main {
+  padding: 20px;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 20px;
+}
+
+.product {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.product img {
+  max-width: 100%;
+}
+
+footer {
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   height:30px;
+   width:100%;
+   background:#476C5E;
+}
+
+p{
+    
+    padding: 20px;
+    padding-top: 8px;
+     padding-bottom: 8px;
+}
+
+<style>
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color: #CEF09D;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav li a {
+  display: block;
+  padding: 10px;
+  color: #4D594F;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: #C5D9C7;
+}
+</style>
+
+article{ 
+ width: 50%;
+    padding-right: 30px;
+}
+
+header {
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #fff;
+  margin: 0;
+  text-transform: uppercase;
+}
+    
+    .container img {
+  float: left;
+}
+
+.container p {
+  float: right;
+}
+
+#hp  {
+float: left;    
+ margin: 0 15px 0 0;
+}
+    
+.left { float: left; padding: 0 20px 20px 0;} 
